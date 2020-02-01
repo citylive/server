@@ -8,6 +8,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import javax.transaction.Transactional;
+import java.util.List;
 
 @Repository
 public interface UserRepository extends CrudRepository<User, String> {
@@ -23,5 +24,8 @@ public interface UserRepository extends CrudRepository<User, String> {
 
     @Query(value = "Select deviceId From CityLive.User where UserName=:userName", nativeQuery = true)
     String getDeviceIdForUserId(@Param("userName") String userName);
+
+    @Query(value = "Select u.* From CityLive.User u where email=:email", nativeQuery = true)
+    List<User> getUserByEmail(@Param("email") String email);
 
 }

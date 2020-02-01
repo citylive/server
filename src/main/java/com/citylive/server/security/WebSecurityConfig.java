@@ -48,6 +48,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     public void configure(WebSecurity web) throws Exception {
         web.ignoring().antMatchers("/resources/**");
         web.ignoring().antMatchers("/user/signup");
+        web.ignoring().antMatchers("/generateOtp");
     }
 
     @Override
@@ -55,6 +56,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http
                 .authorizeRequests()
                 .antMatchers("/user/signup").permitAll()
+                .antMatchers("/generateOtp").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
