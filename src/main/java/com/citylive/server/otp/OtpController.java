@@ -32,7 +32,7 @@ public class OtpController {
         Map<String, String> map = new HashMap<>();
         Optional<User> byUserName = userService.findByUserName(user.getUserName());
         final List<User> userByEmail = userRepository.getUserByEmail(user.getEmail());
-        if (!byUserName.isPresent() && user.getEmail() != null && userByEmail != null && userByEmail.isEmpty()) {
+        if (!byUserName.isPresent() && (userByEmail == null || userByEmail.isEmpty())) {
             int otp = otpService.generateOTP(user.getUserName());
             log.info("{} OTP : " + otp, user.getUserName());
             //Generate The Template to send OTP
