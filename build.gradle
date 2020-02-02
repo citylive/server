@@ -13,10 +13,22 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.google.firebase:firebase-admin:6.11.0'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-jdbc'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-security'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '1.0.0.RELEASE'
+	compile('org.postgresql:postgresql:9.4-1200-jdbc41'){
+		exclude group: 'org.slf4j'
+	}
+	annotationProcessor("org.projectlombok:lombok:1.16.20")
+	compileOnly("org.projectlombok:lombok:1.16.20")
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	
+	compileOnly 'org.projectlombok:lombok:1.18.4'
+    annotationProcessor 'org.projectlombok:lombok:1.18.4'
 }
 
 test {

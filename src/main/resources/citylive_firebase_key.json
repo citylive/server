@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "citylive-cb784",
+  "private_key_id": "d58f95984471009766519159ce4dda58f966edd1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC18tBGbD8YLZjW\ndyb0+ftP6Bk536aDBJ30Z1A9Osz0lWF1lrSEVbAYblkM2rto5lNKr5qNHbT6q+vJ\nUpLJy5RXn75LR+rXaMHBiehq254RxtxDwMkQCRJYFTcWj2ybAFLFHC61tCFQ+2C+\npiMKpxDv/65OS3MtkbS3vDhLTzpanNTZnZ7yd11hUz3hvxEfK1XHZRM5WY3EC5CE\nJDfbSmmBQjJVBntfjgNRp84kflv//cFTINd/9ULmxrJnP6XW/EClbYL3jvt1n8W9\n0HO4i9sm3LSK08GcQBu5AYctj0T00+6Iha7/8aZ19nBt2Y7zyiwEt3lxF4Ulspzr\nFYhHdppJAgMBAAECggEADjZ/7AcKfQmaIeNat5zBHlUVBrcQiLVcibS5/nUggQOb\n7Rr/Ehj9IZoZxTNfRpAQFhULwjW9nIOVA9vk1l7GK/vGb5bYLV2uyFRM7kSmafY/\niwsHzxjyUKSkR2l1PvzCZR4w4jtGYKR+V8OJGGIuucdegZm1udZ4XY5A/ysFdddJ\nW4BJMZw98uYvOP5T65zah4q7su/StO3/8jrt9OvUkfil6BWp9O4RVTEcFQNulnPp\nCues8xkeCU9Q6RrmF/sRsJeC6OvV3UuTvPy8hDQFIa4faq+nQ/qXWz6amcu8CTVF\nYKL5yjfGdyUum4JS4amtsuVkGpeL4+TpyhjOV5TUHQKBgQDv3VdAoceIguxU/2Dq\naxLvS6maBvrgglieFK+zoXBK1RePAdma7REe65/r1xxGBGW/SDo70VDLqOAezRiF\nn3A6FahoLCr7TFgLlknwgELRFpHoNYw8HLdUXpQQ1E9DnpEFipFAaC21K1VYEo9b\ns7MC+aTFCm9YtHVGlcPiQ30gZQKBgQDCMBxyEHUuImYexNylGIsF35Wwvp0m11fe\nKtqBm6+y4OUdhvYEt62HyZuGTWQKFDA3m6CR5pZOtR4Td2zR1s2FON7tqM24Hxtg\n90zlwlUh3VtkHCcXTdPULwmBJYPOACpWHPyMkeUSC4kZwWrcAOrzIAM7as/4f2ru\n6aOvlsMKFQKBgCCR+p4RGaoEtRiZkMxj+684o/ABUKGZsXTNtEn8+uV+Z/OIOcca\nt79uGUoJ7JHpWPOPWDD1LDZrWPt1uAW076VDeZmjnbZ/2FjCcInSsL/5g5h3ZPJo\np9AyA4MBgT3aUzDgbvbC7qnyF2WdJ5A5J26Y/XGwCAyQfHg4L+ASb/QtAoGBAIfh\nqJX8hDLDKVhQguEX2nhCqvlheJAsUbUJoZrd+UUfb9OIk/BbIxeIcMa6ss0GsXLH\n+MT/aKAsxp3yjHgNagTV9dCxtToosjzY77s6j93Bimjz9jqtYBPy0iDHwoJMxVM6\nt1IZ6QQGhGo8WO0Xy1BTT0+tf1ewuX/yh3Kf+Vy9AoGAL5NcsZXONy3C9H1QmOH7\n/dF03bOTORYmIx/rogaWuYiR5AyatboCuSEp3EtUpR7XJiJ785/ihpPaafY1ZNv+\nQOdgKmSNbsDa5e/jue38ZWKv42u75/2LwnrvW8sGaCwtc1hwC9mMRRtpATbM1kFW\nCu63JEEPrv4Xkx9yGQpMnuM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-5cnzc@citylive-cb784.iam.gserviceaccount.com",
+  "client_id": "104911521888053763983",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-5cnzc%40citylive-cb784.iam.gserviceaccount.com"
+}
