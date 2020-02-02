@@ -2,6 +2,7 @@ package com.citylive.server.service;
 
 import com.citylive.server.MTree.Planar.MTree2D;
 import com.citylive.server.MTree.common.Data;
+import com.citylive.server.MTree.common.MTree;
 import com.citylive.server.dao.AnswerRepository;
 import com.citylive.server.dao.TopicRepository;
 import com.citylive.server.dao.UserRepository;
@@ -51,8 +52,9 @@ public class TopicService {
         Topic updatedTopic = topicRepository.save(topic.toBuilder().closed(false).time(new Timestamp((new Date()).getTime())).build());
 
         List<String> nearbyUsers = mtree
-                .getNearestAsList(new Data(topic.getUserName(),topic.getLongitude(),topic.getLatitude()))
+                .getNearestAsList(new Data(topic.getUserName(),topic.getLongitude(),topic.getLatitude()),5,10)
                 .stream()
+                .filter(rs->!rs.data.getId().equals(topic.getUserName()))
                 .map(rs->rs.data.getId())
                 .collect(Collectors.toList());
 
