@@ -17,7 +17,6 @@ public class MyEmailService {
         simpleMailMessage.setTo(to);
         simpleMailMessage.setSubject(subject);
         simpleMailMessage.setText(message);
-        simpleMailMessage.setFrom("admin@admin.com");
         javaMailSender.send(simpleMailMessage);
     }
 }
