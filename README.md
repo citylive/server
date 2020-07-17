@@ -13,4 +13,4 @@ Proximity based networking and coordination.
 
 ## Tech used 
 
-Rest serive in java using spring framework for serving users. Used R-Trees for range queries for extracting nearby users based on location. using firebase for sending push notifiactions to the users.  
+Rest service in java using spring framework for serving users. Used R-Trees for range queries for extracting nearby users based on location. using firebase for sending push notifiactions to the users.  
